@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+#search {
+  font-size: 48px;
+  color: #ddd;
+  padding: 20px;
+  width: 30ch;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background: rgba(203, 221, 213, 0.074);
+  border: 2px solid #f3f2efad;
+  border-radius: 3px;
+}
+
+body {
+  background: url(./img/vicecitybg.jpg) center top no-repeat;
+  background-size: cover;
+}
