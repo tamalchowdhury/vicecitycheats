@@ -12,7 +12,7 @@ function CheatMessage({ message = "Cheat Activated" }) {
 
 function App() {
   const [tooltipShown, setTooltipShown] = React.useState(false)
-  const [tooltipMessage, setTooltipMessage] = React.useState("")
+  const [tooltipMessage, setTooltipMessage] = React.useState()
 
   function handleSearchSubmit(event) {
     event.preventDefault()

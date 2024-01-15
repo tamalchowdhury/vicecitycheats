@@ -62,7 +62,7 @@ body {
   padding: 15px;
   text-align-last: left;
   width: 400px;
-  position: relative;
+  position: absolute;
   left: 30px;
   top: 30px;
 }
