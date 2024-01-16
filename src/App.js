@@ -43,7 +43,7 @@ function App() {
       {tooltipShown ? <CheatMessage message={tooltipMessage} /> : null}
       <form onSubmit={handleSearchSubmit}>
         <div>
-          <input type="text" id="search" autoFocus={true} />
+          <input type="text" id="search" autoFocus={true} autoComplete="off" />
         </div>
         <button type="submit">Enter</button>
       </form>
